@@ -30,8 +30,8 @@ create table if not exists Совместные_альбомы (
 create table if not exists Треки (
 	id serial primary key,
 	название varchar(60) not null,
-	длительность numeric(3,2) not null,
-	Альбом_id integer references Альбомы(id) 
+	длительность time not null,
+	Альбом_id integer references Альбомы(id)
 );
 
 create table if not exists Сборники(

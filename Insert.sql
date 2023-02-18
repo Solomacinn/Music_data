@@ -38,21 +38,21 @@ values
 insert into public."Треки"
 (название, Альбом_id, длительность)
 values
-('Diamant', 1, 2.34),
-('Deutschland', 1, 5.23),
-('Soul Sucker', 4, 4.34),
-('Swansong for a Raven', 6, 7.09),
-('Coffin Fodder', 6, 5.17),
-('Dead Boys Poem', 2, 4.25),
-('Wishmaster', 2, 4.25),
-('Numb', 3, 3.08),
-('Faint', 3, 2.42),
-('Я здесь', 10, 5.39),
-('Manowarriors', 5, 4.46),
-('Children of the Damned', 7, 4.35),
-('Circus', 8, 5.09),
-('Supernova', 9, 4.01),
-('Willst du frei sein?', 9, 3.51);
+('Diamant', 1, '00:02:34'),
+('Deutschland', 1, '00:05:23'),
+('Soul Sucker', 4, '00:04:34'),
+('Swansong for a Raven', 6, '00:07:09'),
+('Coffin Fodder', 6, '00:05:17'),
+('Dead Boys Poem', 2, '00:04:25'),
+('Wishmaster', 2, '00:04:25'),
+('Numb', 3, '00:03:08'),
+('Faint', 3, '00:02:42'),
+('Я здесь', 10, '00:05:39'),
+('Manowarriors', 5, '00:04:46'),
+('Children of the Damned', 7, '00:04:35'),
+('Circus', 8, '00:05:09'),
+('Supernova', 9, '00:04:01'),
+('Willst du frei sein?', 9, '00:03:51');
 
 insert into public."Совместные_исполнители"
 values
